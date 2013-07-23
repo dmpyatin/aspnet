@@ -1,0 +1,37 @@
+﻿@model Web.Implementation.Models.CultureModel
+
+@{
+    ViewBag.Title = "<tag>Home Page</tag>";
+}
+
+
+<h2><tag>Welcome</tag></h2>
+<p>
+    <span><tag>learnmore</tag></span>.
+    <button type="button" id="id" data-bind="click: $root.showMessage"> <tag>Show message</tag></button>
+</p>
+
+ <ul class="nav">
+      <li><a class="home" href="#" ><tag>Home</tag></a></li>
+      <li><a href="#" ><tag>page 1</tag></a></li>
+      <li><a href="#" ><tag>page 2</tag></a></li>
+ </ul>
+
+<div>
+    <span data-i18n="text1"></span>
+</div>
+
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Get))
+{
+    
+    @Html.DropDownListFor(
+        md => md.cultureId,
+        Model.Cultures.Select(x => new SelectListItem()
+        {
+            Value = x.Id.ToString(),
+            Text = x.Name
+        })
+    );
+    <input type="submit" value="Go" />
+}

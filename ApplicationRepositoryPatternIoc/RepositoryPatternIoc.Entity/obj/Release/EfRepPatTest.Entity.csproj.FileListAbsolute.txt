@@ -1,0 +1,5 @@
+C:\Users\0\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\RepositoryPatternIoc.Entity\bin\Release\EfRepPatTest.Entity.dll
+C:\Users\0\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\RepositoryPatternIoc.Entity\bin\Release\EfRepPatTest.Entity.pdb
+C:\Users\0\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\RepositoryPatternIoc.Entity\obj\Release\EfRepPatTest.Entity.csprojResolveAssemblyReference.cache
+C:\Users\0\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\RepositoryPatternIoc.Entity\obj\Release\EfRepPatTest.Entity.dll
+C:\Users\0\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\RepositoryPatternIoc.Entity\obj\Release\EfRepPatTest.Entity.pdb
