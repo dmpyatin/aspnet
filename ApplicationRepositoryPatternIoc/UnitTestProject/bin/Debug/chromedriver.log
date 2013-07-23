@@ -1,0 +1,15 @@
+[0.001][INFO]:      ChromeDriver 18.0.1022.0 C:\chromedriver.exe
+[2.117][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "extensions": [  ]
+   },
+   "javascriptEnabled": true,
+   "platform": "WINDOWS",
+   "version": ""
+}
+
+[2.119][INFO]:      Launching chrome: "C:\Users\Dmitry\AppData\Local\Xpom\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --homepage=about:blank
+[17.012][SEVERE]:   Failed to initialize connection

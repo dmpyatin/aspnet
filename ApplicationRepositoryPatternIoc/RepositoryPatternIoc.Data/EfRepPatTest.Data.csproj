@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C7B6B54A-80E0-44D8-91AF-EFF936334E3A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EfRepPatTest.Data</RootNamespace>
+    <AssemblyName>EfRepPatTest.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CurrentContext.cs" />
+    <Compile Include="DbInitializer\DataBaseInitializer.cs" />
+    <Compile Include="Mapping\CategoryMap.cs" />
+    <Compile Include="Mapping\CultureMap.cs" />
+    <Compile Include="Mapping\ProductMap.cs" />
+    <Compile Include="Mapping\SpaceMap.cs" />
+    <Compile Include="Mapping\TranslationMap.cs" />
+    <Compile Include="Migrations\201307021320460_InitialCreate.cs" />
+    <Compile Include="Migrations\201307021320460_InitialCreate.Designer.cs">
+      <DependentUpon>201307021320460_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201307121306596_Add_Culture_Entity.cs" />
+    <Compile Include="Migrations\201307121306596_Add_Culture_Entity.Designer.cs">
+      <DependentUpon>201307121306596_Add_Culture_Entity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201307121313454_AddCultures.cs" />
+    <Compile Include="Migrations\201307121313454_AddCultures.Designer.cs">
+      <DependentUpon>201307121313454_AddCultures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201307150616201_Test.cs" />
+    <Compile Include="Migrations\201307150616201_Test.Designer.cs">
+      <DependentUpon>201307150616201_Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201307150624281_Test2.cs" />
+    <Compile Include="Migrations\201307150624281_Test2.Designer.cs">
+      <DependentUpon>201307150624281_Test2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201307150649143_Add-Translations.cs" />
+    <Compile Include="Migrations\201307150649143_Add-Translations.Designer.cs">
+      <DependentUpon>201307150649143_Add-Translations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201307170824189_AddSpace.cs" />
+    <Compile Include="Migrations\201307170824189_AddSpace.Designer.cs">
+      <DependentUpon>201307170824189_AddSpace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201307170830072_AddTranslationsToSpaces.cs" />
+    <Compile Include="Migrations\201307170830072_AddTranslationsToSpaces.Designer.cs">
+      <DependentUpon>201307170830072_AddTranslationsToSpaces.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BaseContext.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RepositoryPatternIoc.Entity\EfRepPatTest.Entity.csproj">
+      <Project>{3311411D-F135-4F5F-8038-C7582035C0EF}</Project>
+      <Name>EfRepPatTest.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201307021320460_InitialCreate.resx">
+      <DependentUpon>201307021320460_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201307121306596_Add_Culture_Entity.resx">
+      <DependentUpon>201307121306596_Add_Culture_Entity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201307121313454_AddCultures.resx">
+      <DependentUpon>201307121313454_AddCultures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201307150616201_Test.resx">
+      <DependentUpon>201307150616201_Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201307150624281_Test2.resx">
+      <DependentUpon>201307150624281_Test2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201307150649143_Add-Translations.resx">
+      <DependentUpon>201307150649143_Add-Translations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201307170824189_AddSpace.resx">
+      <DependentUpon>201307170824189_AddSpace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201307170830072_AddTranslationsToSpaces.resx">
+      <DependentUpon>201307170830072_AddTranslationsToSpaces.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

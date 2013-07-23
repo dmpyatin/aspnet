@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="009a6971-2524-43f9-9ba8-7226bfbee7a9" name="Dmitry@DMITRY-ПК 2013-07-19 10:46:39" runUser="Dmitry-ПК\Dmitry" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="43c9709c-0337-486c-82a1-9f2fd437522d">
+    <Deployment runDeploymentRoot="Dmitry_DMITRY-ПК 2013-07-19 10_46_39">
+      <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+      <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Spark.Web.Mvc3.1.7.5.1\lib\NET4\Spark.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Selenium.WebDriver.2.33.0\lib\net40\WebDriver.dll" />
+      <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Spark.1.7.5.1\lib\NET40\Spark.dll" />
+      <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\bin\Debug\EfRepPatTest.Service.dll" />
+      <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Microsoft.AspNet.Mvc.4.0.30506.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\EnumHelper.1.0.1002\lib\EnumHelper.dll" />
+      <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\RepositoryPatternIoc.Entity\bin\Debug\EfRepPatTest.Entity.dll" />
+      <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\WebActivator.1.4.4\lib\net40\WebActivator.dll" />
+      <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\Web.Implementation\bin\Web.Implementation.dll" />
+      <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\SeleniumExtensions.1.1.0.0\lib\SeleniumExtensions.dll" />
+      <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Selenium.WebDriverBackedSelenium.2.33.0\lib\net40\Selenium.WebDriverBackedSelenium.dll" />
+      <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Selenium.Support.2.33.0\lib\net40\WebDriver.Support.dll" />
+      <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Selenium.RC.2.33.0\lib\net40\ThoughtWorks.Selenium.Core.dll" />
+      <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Microsoft.AspNet.Razor.2.0.30506.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\RepositoryPatternIoc.Data\bin\Debug\EfRepPatTest.Data.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-07-19T10:46:39.1680962+04:00" queuing="2013-07-19T10:46:44.8214196+04:00" start="2013-07-19T10:46:45.4904579+04:00" finish="2013-07-19T10:47:00.1382957+04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <WebTest name="WebTest2" storage="c:\users\dmitry\documents\visual studio 2012\projects\applicationrepositorypatternioc\unittestproject\webtest2.webtest" id="8640f603-5987-4607-b7a2-ea7b3e36722c" persistedWebTest="77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pg0KPFdlYlRlc3QgTmFtZT0iV2ViVGVzdDIiIElkPSI4NjQwZjYwMy01OTg3LTQ2MDctYjdhMi1lYTdiM2UzNjcyMmMiIE93bmVyPSIiIFByaW9yaXR5PSIyMTQ3NDgzNjQ3IiBFbmFibGVkPSJUcnVlIiBDc3NQcm9qZWN0U3RydWN0dXJlPSIiIENzc0l0ZXJhdGlvbj0iIiBUaW1lb3V0PSIwIiBXb3JrSXRlbUlkcz0iIiB4bWxucz0iaHR0cDovL21pY3Jvc29mdC5jb20vc2NoZW1hcy9WaXN1YWxTdHVkaW8vVGVhbVRlc3QvMjAxMCIgRGVzY3JpcHRpb249IiIgQ3JlZGVudGlhbFVzZXJOYW1lPSIiIENyZWRlbnRpYWxQYXNzd29yZD0iIiBQcmVBdXRoZW50aWNhdGU9IlRydWUiIFByb3h5PSIiIFN0b3BPbkVycm9yPSJGYWxzZSIgUmVjb3JkZWRSZXN1bHRGaWxlPSJXZWJUZXN0Mi43OGM3MzM1My1lYmM2LTQ2MTUtYTU4Yi02Nzc5YjUyZGRjMDkucmVjLndlYnRlc3RyZXN1bHQiPg0KICA8SXRlbXM+DQogICAgPFJlcXVlc3QgTWV0aG9kPSJHRVQiIEd1aWQ9Ijg2NGU4ZGFmLWVjZmYtNDE2Yi1hNjVlLTAzNDY5ZTE0NTk2NiIgVmVyc2lvbj0iMS4xIiBVcmw9Imh0dHA6Ly9sb2NhbGhvc3QvSG9tZS9JbmRleCIgVGhpbmtUaW1lPSIwIiBUaW1lb3V0PSIzMDAiIFBhcnNlRGVwZW5kZW50UmVxdWVzdHM9IlRydWUiIEZvbGxvd1JlZGlyZWN0cz0iVHJ1ZSIgUmVjb3JkUmVzdWx0PSJUcnVlIiBDYWNoZT0iRmFsc2UiIFJlc3BvbnNlVGltZUdvYWw9IjAiIEVuY29kaW5nPSJ1dGYtOCIgRXhwZWN0ZWRIdHRwU3RhdHVzQ29kZT0iMCIgRXhwZWN0ZWRSZXNwb25zZVVybD0iIiBSZXBvcnRpbmdOYW1lPSIiIC8+DQogICAgPFJlcXVlc3QgTWV0aG9kPSJHRVQiIEd1aWQ9ImYxOTAyYWU2LTg5OTQtNGUxNi05MGE2LTQ5YTJjMDNkZGFjZCIgVmVyc2lvbj0iMS4xIiBVcmw9Imh0dHA6Ly9sb2NhbGhvc3QvU2lnbkluL0luZGV4IiBUaGlua1RpbWU9IjAiIFRpbWVvdXQ9IjMwMCIgUGFyc2VEZXBlbmRlbnRSZXF1ZXN0cz0iVHJ1ZSIgRm9sbG93UmVkaXJlY3RzPSJUcnVlIiBSZWNvcmRSZXN1bHQ9IlRydWUiIENhY2hlPSJGYWxzZSIgUmVzcG9uc2VUaW1lR29hbD0iMCIgRW5jb2Rpbmc9InV0Zi04IiBFeHBlY3RlZEh0dHBTdGF0dXNDb2RlPSIwIiBFeHBlY3RlZFJlc3BvbnNlVXJsPSIiIFJlcG9ydGluZ05hbWU9IiIgLz4NCiAgICA8UmVxdWVzdCBNZXRob2Q9IkdFVCIgR3VpZD0iNWQ1ZGI1ZTgtMjA3Yi00YTZlLTk0M2ItYjZmNGJlZGNhOWFiIiBWZXJzaW9uPSIxLjEiIFVybD0iaHR0cDovL2xvY2FsaG9zdC9Ib21lL0luZGV4IiBUaGlua1RpbWU9IjAiIFRpbWVvdXQ9IjMwMCIgUGFyc2VEZXBlbmRlbnRSZXF1ZXN0cz0iVHJ1ZSIgRm9sbG93UmVkaXJlY3RzPSJUcnVlIiBSZWNvcmRSZXN1bHQ9IlRydWUiIENhY2hlPSJGYWxzZSIgUmVzcG9uc2VUaW1lR29hbD0iMCIgRW5jb2Rpbmc9InV0Zi04IiBFeHBlY3RlZEh0dHBTdGF0dXNDb2RlPSIwIiBFeHBlY3RlZFJlc3BvbnNlVXJsPSIiIFJlcG9ydGluZ05hbWU9IiIgLz4NCiAgPC9JdGVtcz4NCjwvV2ViVGVzdD4=">
+      <Execution id="1496fde9-c138-4dcc-95ad-a7a5b6390240" />
+    </WebTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry isTransparent="false" testId="8640f603-5987-4607-b7a2-ea7b3e36722c" executionId="1496fde9-c138-4dcc-95ad-a7a5b6390240" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <WebTestResult executionId="1496fde9-c138-4dcc-95ad-a7a5b6390240" testId="8640f603-5987-4607-b7a2-ea7b3e36722c" testName="WebTest2" computerName="DMITRY-ПК" duration="00:00:02.3858316" startTime="2013-07-19T10:46:45.8894807+04:00" endTime="2013-07-19T10:46:59.8752806+04:00" testType="4e7599fa-5ecb-43e9-a887-cd63cf72d207" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1496fde9-c138-4dcc-95ad-a7a5b6390240">
+      <Output>
+        <ErrorInfo>
+          <Message>3 primary requests, 0 dependant requests and 0 conditional rules failed</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="WebTest2.webtestResult" />
+      </ResultFiles>
+      <TestSettings name="Default Test Settings" id="43c9709c-0337-486c-82a1-9f2fd437522d">
+        <Deployment runDeploymentRoot="Dmitry_DMITRY-ПК 2013-07-19 10_46_39">
+          <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+          <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Spark.Web.Mvc3.1.7.5.1\lib\NET4\Spark.Web.Mvc.dll" />
+          <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Selenium.WebDriver.2.33.0\lib\net40\WebDriver.dll" />
+          <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Spark.1.7.5.1\lib\NET40\Spark.dll" />
+          <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.dll" />
+          <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\bin\Debug\EfRepPatTest.Service.dll" />
+          <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Microsoft.AspNet.Mvc.4.0.30506.0\lib\net40\System.Web.Mvc.dll" />
+          <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\EnumHelper.1.0.1002\lib\EnumHelper.dll" />
+          <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\RepositoryPatternIoc.Entity\bin\Debug\EfRepPatTest.Entity.dll" />
+          <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\WebActivator.1.4.4\lib\net40\WebActivator.dll" />
+          <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\Web.Implementation\bin\Web.Implementation.dll" />
+          <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Razor.dll" />
+          <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+          <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\SeleniumExtensions.1.1.0.0\lib\SeleniumExtensions.dll" />
+          <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.Helpers.dll" />
+          <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Selenium.WebDriverBackedSelenium.2.33.0\lib\net40\Selenium.WebDriverBackedSelenium.dll" />
+          <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll" />
+          <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Selenium.Support.2.33.0\lib\net40\WebDriver.Support.dll" />
+          <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Selenium.RC.2.33.0\lib\net40\ThoughtWorks.Selenium.Core.dll" />
+          <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+          <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\packages\Microsoft.AspNet.Razor.2.0.30506.0\lib\net40\System.Web.Razor.dll" />
+          <DeploymentItem filename="C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\RepositoryPatternIoc.Data\bin\Debug\EfRepPatTest.Data.dll" />
+        </Deployment>
+        <Execution>
+          <TestTypeSpecific>
+            <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+              <Browser name="Internet Explorer 9.0" MaxConnections="6">
+                <Headers>
+                  <Header name="User-Agent" value="Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)" />
+                  <Header name="Accept" value="*/*" />
+                  <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+                  <Header name="Accept-Encoding" value="GZIP" />
+                </Headers>
+              </Browser>
+            </WebTestRunConfiguration>
+          </TestTypeSpecific>
+          <AgentRule name="Execution Agents">
+          </AgentRule>
+        </Execution>
+      </TestSettings>
+      <WebTestResultFilePath>Dmitry_DMITRY-ПК 2013-07-19 10_46_39\In\1496fde9-c138-4dcc-95ad-a7a5b6390240\WebTest2.webtestResult</WebTestResultFilePath>
+    </WebTestResult>
+  </Results>
+</TestRun>

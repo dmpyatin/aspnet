@@ -1,0 +1,5 @@
+C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\RepositoryPatternIoc.Entity\bin\Debug\EfRepPatTest.Entity.dll
+C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\RepositoryPatternIoc.Entity\bin\Debug\EfRepPatTest.Entity.pdb
+C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\RepositoryPatternIoc.Entity\obj\Debug\EfRepPatTest.Entity.dll
+C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\RepositoryPatternIoc.Entity\obj\Debug\EfRepPatTest.Entity.pdb
+C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\RepositoryPatternIoc.Entity\obj\Debug\EfRepPatTest.Entity.csprojResolveAssemblyReference.cache

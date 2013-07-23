@@ -1,0 +1,14 @@
+﻿@model IEnumerable<Web.Implementation.Models.TestLINQModel>
+
+@{
+    ViewBag.Title = "TestLINQ";
+}
+
+<h2>TestLINQ</h2>
+
+<ul>
+@foreach (var p in Model.Ids)
+{
+   @:<li>@p</li> 
+}
+</ul>
