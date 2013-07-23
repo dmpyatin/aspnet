@@ -10,3 +10,15 @@ C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatte
 C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\bin\Debug\EntityFramework.xml
 C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\obj\Debug\EfRepPatTest.Service.dll
 C:\Users\Dmitry\Documents\Visual Studio 2012\Projects\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\obj\Debug\EfRepPatTest.Service.pdb
+C:\Users\0\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\bin\Debug\EfRepPatTest.Service.dll.config
+C:\Users\0\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\bin\Debug\EfRepPatTest.Service.dll
+C:\Users\0\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\bin\Debug\EfRepPatTest.Service.pdb
+C:\Users\0\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\bin\Debug\EfRepPatTest.Data.dll
+C:\Users\0\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\bin\Debug\EfRepPatTest.Entity.dll
+C:\Users\0\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\bin\Debug\EntityFramework.dll
+C:\Users\0\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\bin\Debug\EfRepPatTest.Data.pdb
+C:\Users\0\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\bin\Debug\EfRepPatTest.Entity.pdb
+C:\Users\0\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\bin\Debug\EntityFramework.xml
+C:\Users\0\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\obj\Debug\EfRepPatTest.Service.csprojResolveAssemblyReference.cache
+C:\Users\0\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\obj\Debug\EfRepPatTest.Service.dll
+C:\Users\0\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\obj\Debug\EfRepPatTest.Service.pdb
