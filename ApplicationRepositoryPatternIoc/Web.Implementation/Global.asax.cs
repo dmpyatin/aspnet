@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using Web.Implementation.Infrastructure;
 using System.Web.Http;
+using System.Web.Hosting;
 
 
 namespace Web.Implementation
