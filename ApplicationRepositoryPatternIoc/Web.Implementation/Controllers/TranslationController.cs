@@ -26,7 +26,11 @@ namespace Web.Implementation.Controllers
             var m = Regex.Matches(text, regex, RegexOptions.Singleline).Cast<Match>().Select(match => match.Groups[1].Value);
             foreach (var p in m)
             {
-                text = text.Replace(start + p + end, DataService.GetTranslation(p, cultureId).Text);
+                var translation = DataService.GetTranslation(p, cultureId);
+                if (translation != null)
+                {
+                    text = text.Replace(start + p + end, translation.Text);
+                }
             }
             return text;
         }
