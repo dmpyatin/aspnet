@@ -22,3 +22,15 @@ C:\Users\0\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.
 C:\Users\0\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\obj\Debug\EfRepPatTest.Service.csprojResolveAssemblyReference.cache
 C:\Users\0\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\obj\Debug\EfRepPatTest.Service.dll
 C:\Users\0\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\obj\Debug\EfRepPatTest.Service.pdb
+C:\Users\Dmitry\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\bin\Debug\EfRepPatTest.Service.dll.config
+C:\Users\Dmitry\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\bin\Debug\EfRepPatTest.Service.dll
+C:\Users\Dmitry\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\bin\Debug\EfRepPatTest.Service.pdb
+C:\Users\Dmitry\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\bin\Debug\EfRepPatTest.Data.dll
+C:\Users\Dmitry\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\bin\Debug\EfRepPatTest.Entity.dll
+C:\Users\Dmitry\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\bin\Debug\EntityFramework.dll
+C:\Users\Dmitry\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\bin\Debug\EfRepPatTest.Data.pdb
+C:\Users\Dmitry\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\bin\Debug\EfRepPatTest.Entity.pdb
+C:\Users\Dmitry\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\bin\Debug\EntityFramework.xml
+C:\Users\Dmitry\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\obj\Debug\EfRepPatTest.Service.csprojResolveAssemblyReference.cache
+C:\Users\Dmitry\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\obj\Debug\EfRepPatTest.Service.dll
+C:\Users\Dmitry\Documents\GitHub\aspnet\ApplicationRepositoryPatternIoc\EfRepPatTest.Service\obj\Debug\EfRepPatTest.Service.pdb
