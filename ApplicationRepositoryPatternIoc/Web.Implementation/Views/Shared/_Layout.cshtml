@@ -35,8 +35,9 @@
 
         self.init = function () {
             console.log("init ok");
+
             dModel.loadData({
-                address: "test/CultureApi/getall",
+                address: "CultureApi/getall",
                 obj: self.cultures,
                 onsuccess: function () {
                     console.log("load ok");
