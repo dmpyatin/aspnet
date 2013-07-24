@@ -28,11 +28,25 @@ namespace Web.Implementation
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapHttpRoute(
-               name: "DefaultApi",
-               routeTemplate: "api/v1.0/{controller}/{action}/{id}",
-               defaults: new { id = System.Web.Http.RouteParameter.Optional }
-           );
+            var siteName = System.Web.Hosting.HostingEnvironment.ApplicationHost.GetSiteName();
+
+            if (siteName == "Default Web Site")
+            {
+                routes.MapHttpRoute(
+                   name: "DefaultApi",
+                   routeTemplate: "/test/api/v1.0/{controller}/{action}/{id}",
+                   defaults: new { id = System.Web.Http.RouteParameter.Optional }
+               );
+            }
+            else
+            {
+                routes.MapHttpRoute(
+                   name: "DefaultApi",
+                   routeTemplate: "/test/api/v1.0/{controller}/{action}/{id}",
+                   defaults: new { id = System.Web.Http.RouteParameter.Optional }
+               );
+
+            }
 
             routes.MapRoute(
                 "Default", // Route name
@@ -44,7 +58,6 @@ namespace Web.Implementation
         protected void Application_Start()
         {
             MvcHandler.DisableMvcResponseHeader = true;
-
             AreaRegistration.RegisterAllAreas();
             DependencyConfigure.Initialize();
             RegisterGlobalFilters(GlobalFilters.Filters);
