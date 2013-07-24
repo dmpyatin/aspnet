@@ -12,9 +12,12 @@ function dataModel() {
             var exp = document.URL.split(/^(([^:\/?#]+):)?(\/\/([^\/?#]*))?([^?#]*)(\?([^#]*))?(#(.*))?/);
             var t = exp[5].split("/")[1];
 
+            if (t !== "test")
+                t = "";
+
             $.ajax({
                 type: 'GET',
-                url:  '/api/v1.0/' + arg.address,
+                url:  t + '/api/v1.0/' + arg.address,
                 data: arg.params,
                 success: function (data) {
                     if (arg.onbefore !== undefined)
