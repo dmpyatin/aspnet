@@ -44,7 +44,6 @@ namespace Web.Implementation
         protected void Application_Start()
         {
             MvcHandler.DisableMvcResponseHeader = true;
-            var t = System.Web.Hosting.HostingEnvironment.ApplicationHost.GetSiteName();
             AreaRegistration.RegisterAllAreas();
             DependencyConfigure.Initialize();
             RegisterGlobalFilters(GlobalFilters.Filters);

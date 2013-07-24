@@ -11,6 +11,9 @@ function dataModel() {
 
             alert("pathPrefix: " + pathPrefix);
 
+            if (pathPrefix !== "/")
+                pathPrefix += "/";
+
             $.ajax({
                 type: 'GET',
                 url: pathPrefix + 'api/v1.0/' + arg.address,
