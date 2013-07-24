@@ -12,6 +12,8 @@ function dataModel() {
             var exp = document.URL.split(/^(([^:\/?#]+):)?(\/\/([^\/?#]*))?([^?#]*)(\?([^#]*))?(#(.*))?/);
             var t = exp[5].split("/")[1];
 
+            alert(t);
+
             if (t !== "test")
                 t = "";
 
