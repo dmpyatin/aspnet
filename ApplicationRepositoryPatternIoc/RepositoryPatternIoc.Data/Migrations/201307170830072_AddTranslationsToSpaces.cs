@@ -19,8 +19,13 @@ namespace EfRepPatTest.Data.Migrations
                 .ForeignKey("dbo.Space", t => t.Space_Id, cascadeDelete: true)
                 .Index(t => t.Translation_Id)
                 .Index(t => t.Space_Id);
+
+            //Sql("INSERT INTO Culture (Name) VALUES ('Russua1');");
+            
             
         }
+
+        
         
         public override void Down()
         {

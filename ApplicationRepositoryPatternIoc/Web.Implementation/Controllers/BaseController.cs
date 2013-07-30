@@ -10,8 +10,6 @@ namespace Timetable.Site.Controllers.Api
 {
     public abstract class BaseApiController<T> : System.Web.Http.ApiController, INotifyPropertyChanged
     {
-        
-
         public event PropertyChangedEventHandler PropertyChanged;
 
         protected void OnPropertyChanged(string propertyName)

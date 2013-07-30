@@ -17,7 +17,7 @@ using Web.Implementation.Models;
 namespace UnitTestProject
 {
    
-    /*[TestClass]
+    [TestClass]
     public partial class DataServiceTests
     {
         //Юнит тесты
@@ -27,13 +27,15 @@ namespace UnitTestProject
 
             var auth = new Mock<IFormsAuthenticationWrapper>();
 
+            IDataService dataService = Mock.Of<IDataService>();
+
             //auth.Setup(p => p.SetAuthCookie(It.IsAny<string>(), It.IsAny<bool>()));
             //auth.Setup(p => p.SignOut());
 
-            /*ISessionWrapperRepository session = Mock.Of<ISessionWrapperRepository>(
+            ISessionWrapperRepository session = Mock.Of<ISessionWrapperRepository>(
                  p => p.GetSession(It.IsAny<string>()) == null);
 
-            var testSignInController = new SignInController(session, auth.Object);
+            var testSignInController = new SignInController(dataService, session, auth.Object);
 
              var factory = new FakeControllerContextFactory();
 
@@ -52,15 +54,14 @@ namespace UnitTestProject
 
              auth.Verify(p => p.SignOut(), Times.Once());
 
-             Assert.AreEqual(true, true);
-             
+             Assert.AreEqual(true, true);  
         }
 
-
+        
         [TestMethod]
         public void CrudNullEntity()
         {
-            var curContext = new Lazy<CurrentContext>();
+            Lazy<ICurrentDatabase> curContext = new Lazy<ICurrentDatabase>(() => new CurrentContext());
 
             var dataService = new DataService(curContext);
 
@@ -77,6 +78,7 @@ namespace UnitTestProject
             }
         }
 
+        
         [TestMethod]
         public void CrudBehavior()
         {
@@ -86,7 +88,7 @@ namespace UnitTestProject
             mock.Setup(lw => lw.Update<Product>(It.IsAny<Product>()));
             mock.Setup(lw => lw.Delete<Product>(It.IsAny<Product>()));
           
-            var testDataService = new DataService(mock.Object);
+            var testDataService = new DataService(new Lazy<ICurrentDatabase> (() => mock.Object));
 
             var myProduct = new Product();
             var myCategory = new Category();
@@ -102,10 +104,11 @@ namespace UnitTestProject
             mock.Verify();
         }
 
+        
         [TestMethod]
         public void GetCategories()
         {
-            /*IQueryable<Product> testProducts = new List<Product>() { 
+            IQueryable<Product> testProducts = new List<Product>() { 
                 new Product() { Id = 1, Name = "product1", MinimumStockLevel = 10, CategoryId = 1 },
                 new Product() { Id = 2, Name = "product2", MinimumStockLevel = 20, CategoryId = 2 },
                 new Product() { Id = 3, Name = "product3", MinimumStockLevel = 30, CategoryId = 3 }
@@ -117,18 +120,18 @@ namespace UnitTestProject
                 new Category() { Id = 3, Name = "category3", Products = null }
             }.AsQueryable();
 
-            //ICurrentDatabase logger = Mock.Of<ICurrentDatabase>(
-               // d => d.Products == testProducts &&
-                     //d.Categories == testCategories);
+            ICurrentDatabase logger = Mock.Of<ICurrentDatabase>(
+               d => d.Products == testProducts &&
+               d.Categories == testCategories);
 
-            //var testDataService = new DataService(logger);
+            var testDataService = new DataService(new Lazy<ICurrentDatabase>(() => logger));
 
-            //var resultProducts = testDataService.GetCategories();
+            var resultProducts = testDataService.GetCategories;
 
             Assert.AreEqual(true, true);
         }
 
-
+            
         [TestMethod]
         public void GetAllProductsTest()
         {
@@ -137,18 +140,19 @@ namespace UnitTestProject
                 new Product() { Id = 2, Name = "product2", MinimumStockLevel = 20, CategoryId = 2 },
                 new Product() { Id = 3, Name = "product3", MinimumStockLevel = 30, CategoryId = 3 }
             }.AsQueryable();
-           
+
             ICurrentDatabase logger = Mock.Of<ICurrentDatabase>(
                 d => d.Products == testProducts);
 
 
-            var testDataService = new DataService(logger);
+            var testDataService = new DataService(new Lazy<ICurrentDatabase>(() => logger));
 
             var resultProducts = testDataService.GetAllProducts;
 
             Assert.AreEqual(resultProducts.Count(), 3);
         }
 
+        
         [TestMethod]
         public void GetAllCategoriesTest()
         {
@@ -161,14 +165,14 @@ namespace UnitTestProject
             ICurrentDatabase logger = Mock.Of<ICurrentDatabase>(
                 d => d.Categories == testCategories);
 
-
-            var testDataService = new DataService(logger);
+            var testDataService = new DataService(new Lazy<ICurrentDatabase>(() => logger));
 
             var resultCategories = testDataService.GetAllCategories;
 
             Assert.AreEqual(resultCategories.Count(), 3);
         }
 
+        
         [TestMethod]
         public void GetProductByIdTest()
         {
@@ -182,13 +186,14 @@ namespace UnitTestProject
                 d => d.Products == testProducts);
 
 
-            var testDataService = new DataService(logger);
+            var testDataService = new DataService(new Lazy<ICurrentDatabase>(() => logger));
 
             var resultProduct = testDataService.GetProductById(1);
 
             Assert.AreEqual(resultProduct.Id, 1);
         }
 
+        
         [TestMethod]
         public void GetCategoryByIdTest()
         {
@@ -201,14 +206,11 @@ namespace UnitTestProject
             ICurrentDatabase logger = Mock.Of<ICurrentDatabase>(
                 d => d.Categories == testCategories);
 
-
-            var testDataService = new DataService(logger);
+            var testDataService = new DataService(new Lazy<ICurrentDatabase>(() => logger));
 
             var resultCategory = testDataService.GetCategoryById(1);
 
-            //var r = testDataService.GetProductById(1);
-
             Assert.AreEqual(resultCategory.Id, 1);
         }
-    }*/
+    }
 }

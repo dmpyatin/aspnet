@@ -48,7 +48,6 @@ namespace EfRepPatTest.Service
 
         public IQueryable<Category> GetAllCategories
         {
-            //var test = Database.Categories.Include(x => x.Products).ToList();
             get
             {
                 return Database.Value.Categories.Include(x => x.Products);
@@ -57,7 +56,6 @@ namespace EfRepPatTest.Service
 
         public IQueryable<Product> GetAllProducts
         {
-            //var test = Database.Products.Include(x => x.Category).ToList();
             get
             {
                 return Database.Value.Products.Include(x => x.Category);
@@ -82,10 +80,7 @@ namespace EfRepPatTest.Service
 
         public IQueryable<Translation> GetTranslations(int? cultureId, string spaceName)
         {
-           //return Database.GetTranslationsByNames(cultureId, elementNames);
-           // var t = Database.Translations.Where(x => x.Spaces.Any(s => s.Name == spaceName)).ToList();
             return Database.Value.Translations.Where(x => x.CultureId == cultureId && x.Spaces.Any(s => s.Name == spaceName));
         }
-
     }
 }

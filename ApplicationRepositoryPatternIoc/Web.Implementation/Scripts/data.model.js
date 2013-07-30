@@ -9,8 +9,6 @@ function dataModel() {
 
             self.isLoading(true);
 
-            alert("pathPrefix: " + pathPrefix);
-
             if (pathPrefix !== "/")
                 pathPrefix += "/";
 

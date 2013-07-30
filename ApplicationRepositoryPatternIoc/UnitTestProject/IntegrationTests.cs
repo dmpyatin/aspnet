@@ -13,40 +13,13 @@ using System.Web.Mvc;
 
 namespace UnitTestProject
 {
-    /* public partial class DataServiceTests
+    public partial class DataServiceTests
     {
-       //Methods for Load test
-        [TestMethod]
-        public void GetCategoriesPageTest()
-        {
-            var curContext = new Lazy<CurrentContext>();
-            var dataService = new DataService(curContext);
-
-            var categoryController = new CategoryController(dataService);
-
-            var result = categoryController.Index();
-            
-            Assert.AreEqual(true, true);
-        }
-
-        [TestMethod]
-        public void GetHomePageTest()
-        {
-            var curContext = new Lazy<CurrentContext>();
-            var dataService = new DataService(curContext);
-            var homeController = new HomeController(dataService);
-
-            var result = homeController.Index(1);
-
-            Assert.AreEqual(true, true);
-        }
-
-
         //Интеграционные тесты
         [TestMethod]
         public void AddCategoryTest()
         {
-            var curContext = new Lazy<CurrentContext>();
+            Lazy<ICurrentDatabase> curContext = new Lazy<ICurrentDatabase>(() => new CurrentContext());
 
             var dataService = new DataService(curContext);
 
@@ -64,10 +37,12 @@ namespace UnitTestProject
             Assert.AreEqual(countCategoriesPre + 1, countCategoriesPost);
         }
 
+
+        
         [TestMethod]
         public void AddProductTest()
         {
-            var curContext = new CurrentContext();
+            Lazy<ICurrentDatabase> curContext = new Lazy<ICurrentDatabase>(() => new CurrentContext());
 
             var dataService = new DataService(curContext);
 
@@ -89,10 +64,12 @@ namespace UnitTestProject
 
         }
 
+
+  
         [TestMethod]
         public void UpdateProductTest()
         {
-            var curContext = new CurrentContext();
+            Lazy<ICurrentDatabase> curContext = new Lazy<ICurrentDatabase>(() => new CurrentContext());
 
             var dataService = new DataService(curContext);
 
@@ -110,10 +87,11 @@ namespace UnitTestProject
             Assert.AreEqual(myProductPost.Name, myProductPre.Name);
         }
 
+        
         [TestMethod]
         public void UpdateCategoryTest()
         {
-            var curContext = new CurrentContext();
+            Lazy<ICurrentDatabase> curContext = new Lazy<ICurrentDatabase>(() => new CurrentContext());
 
             var dataService = new DataService(curContext);
 
@@ -130,10 +108,11 @@ namespace UnitTestProject
             Assert.AreEqual(myCategoryPost.Name, myCategoryPre.Name);
         }
 
+        
         [TestMethod]
         public void DeleteProductTest()
         {
-            var curContext = new CurrentContext();
+            Lazy<ICurrentDatabase> curContext = new Lazy<ICurrentDatabase>(() => new CurrentContext());
 
             var dataService = new DataService(curContext);
 
@@ -153,10 +132,11 @@ namespace UnitTestProject
             Assert.AreEqual(countProductsPre, countProductsPost);
         }
 
+        
         [TestMethod]
         public void DeleteCategoryTest()
         {
-            var curContext = new CurrentContext();
+            Lazy<ICurrentDatabase> curContext = new Lazy<ICurrentDatabase>(() => new CurrentContext());
 
             var dataService = new DataService(curContext);
 
@@ -173,5 +153,5 @@ namespace UnitTestProject
 
             Assert.AreEqual(countCategoriesPre, countCategoriesPost);
         }
-    }*/
+    }
 }

@@ -12,7 +12,7 @@ using OpenQA.Selenium.Firefox;
 
 namespace UnitTestProject
 {
-    [TestClass]
+    /*[TestClass]
     public partial class ControllerTests
     {
 
@@ -44,5 +44,5 @@ namespace UnitTestProject
             Assert.AreNotEqual(t, null);
            
         }
-    } 
+    } */
 }
